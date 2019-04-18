@@ -27,6 +27,7 @@ section {
     background-size: cover;
     padding-top: 6em;
     padding-bottom: 6em;
+}
 
 .jumbotron{
     background-image: url("https://i.goopics.net/JoOZy.jpg");
@@ -54,15 +55,15 @@ section {
 
 /***Card Characters***/
 
-.card-deck {
+.card-characters.card-deck {
     background-color: rgba(199,199,199,.1);
 }
 
-.card-deck .card {
+.card-characters.card-deck .card {
     background-color: transparent;
 }
 
-.card-body h5 {
+.card-characters .card .card-body h5 {
     color: black;
     font-family: GOT;
     text-align: center;
@@ -78,7 +79,7 @@ section {
     background-color: #4b3115;
 }
 
-.card-img-top {
+.cont-img .card-img-top {
     border-radius: 50%;
     padding: 3%;
     border: 5px solid #c8bea1;
