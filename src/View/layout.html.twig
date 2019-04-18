@@ -1,9 +1,12 @@
 {% extends 'base.html.twig' %}
-{% block navbar %}
-{% include '_navbar.html.twig' %}
+    {% block navbar %}
+{% include 'Home/navbar.html.twig' %}
 {% endblock %}
 {% block content %}{% endblock %}
+{% block characters %}
+    {% include 'Item/_characters.html.twig' %}
+{% endblock %}
 {% block footer %}
-{% include 'footer.html.twig' %}
+{% include 'Home/footer.html.twig' %}
 {% endblock %}
 
