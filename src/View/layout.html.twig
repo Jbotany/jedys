@@ -1,12 +1,16 @@
 {% extends 'base.html.twig' %}
+
+{% block navbar %}
+    {% include 'Home/_navbar.html.twig' %}
 {% block navbar %}
 
-{% include 'Home/_navbar.html.twig' %}
+{% block content %}{% endblock %}
+
+{% block characters %}
+    {% include 'Item/_characters.html.twig' %}
 {% endblock %}
 
-{% block content %}{% endblock %}
 {% block footer %}
-{% include 'Home/footer.html.twig' %}
-
+    {% include 'Home/footer.html.twig' %}
 {% endblock %}
 
