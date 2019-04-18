@@ -1,0 +1,30 @@
+.jumbotron{
+    background-image: url("https://i.goopics.net/JoOZy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.title{
+    text-align: center;
+    margin-top: 10vw;
+}
+
+.title1{
+    font-size: 5vw;
+    color: #ffffff;
+    font-family: "GOT";
+}
+
+.title2{
+    font-size: 1.5vw;
+    color: #ffffff;
+    font-family: "GOT";
+}
+
+@font-face {
+    font-family: "GOT";
+    src: url("../fonts/Game of Thrones.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
