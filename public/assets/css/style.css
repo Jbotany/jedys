@@ -5,6 +5,11 @@
     src: url("/assets/fonts/Game of Thrones.ttf");
 }
 
+@font-face {
+    font-family: "Mason";
+    src: url("/assets/fonts/Mason Regular.ttf");
+}
+
 section {
     padding-bottom: 3em;
     padding-top: 3em;
@@ -18,7 +23,8 @@ section {
 
 .history {
     text-align: center;
-    font-size: 2em;
+    font-size: 1.75em;
+    font-family: Mason;
 }
 
 .historyBack {
