@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "GOT";
+    font-style: normal;
+    font-weight: normal;
+    src: url("/assets/fonts/Game of Thrones.ttf");
+}
+
+/* Start Footer */
+footer h2
+{
+    font-family: GOT;
+    font-size: 1.3em;
+}
+footer ul
+{
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    font-size: 0.8em;
+}
+
+footer p
+{
+    margin-bottom: 0;
+}
+
+footer
+{
+    background-color: #1a1a1a;
+    color: white;
+}
+
+footer hr
+{
+    background-color: white;
+    margin: 2em ;
+}
+
+footer a
+{
+    list-style-type: none;
+    color: white;
+}
+
+.smallPic
+{
+    width: 40px;
+}
+
+.smallPicfb
+{
+    width: 110px;
+}
+
+.littleEndPage
+{
+    font-size: 0.7em;
+}
+/* End Footer */
