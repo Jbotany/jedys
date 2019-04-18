@@ -5,6 +5,13 @@
     src: url("/assets/fonts/Game of Thrones.ttf");
 }
 
+/* Start Eggs */
+h1
+{
+    font-family: GOT;
+}
+/* End Eggs */
+
 /* Start Footer */
 footer h2
 {
