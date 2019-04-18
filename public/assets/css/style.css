@@ -35,18 +35,18 @@ h2 {
     height: 100vh;
 }
 
-.title{
+.titleJumbotron{
     text-align: center;
     margin-top: 10vw;
 }
 
-.title1{
+.titleJumbotron1{
     font-size: 5vw;
     color: #ffffff;
     font-family: "GOT";
 }
 
-.title2{
+.titleJumbotron2{
     font-size: 1.5vw;
     color: #ffffff;
     font-family: "GOT";
