@@ -10,6 +10,8 @@
     src: url("/assets/fonts/Mason Regular.ttf");
 }
 
+/***History***/
+
 section {
     padding-bottom: 3em;
     padding-top: 3em;
@@ -59,6 +61,8 @@ section {
     font-family: "GOT";
 }
 
+/***End of History***/
+
 /***Card Characters***/
 
 .card-characters.card-deck {
@@ -105,3 +109,26 @@ section {
 }
 
 /***End of Card Characters***/
+
+/***Button Up***/
+
+.buttonUp {
+    display: none;
+    padding: 20px;
+    background: #4b3115;
+    cursor: pointer;
+    position: fixed;
+    font-size: 30px;
+    bottom: 2%;
+    right: 1%;
+    color: #c8bea1;
+    border-radius: 50%;
+    z-index: 1000;
+    border: 5px solid #c8bea1;
+    box-shadow: 5px 5px 10px gray;
+}
+
+
+/***End of Button Up***/
+
+
