@@ -9,10 +9,9 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "php": ">=7.2",
-        "ext-pdo": "*",
-        "twig/twig": "^2.4",
-        "guzzlehttp/guzzle": "~6.0"
+        "php" : ">=7.2",
+        "ext-pdo" : "*",
+        "twig/twig": "^2.4"
     },
     "require-dev": {
         "phpro/grumphp": "^0.15.0",
@@ -25,4 +24,3 @@
         }
     }
 }
-
