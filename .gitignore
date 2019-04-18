@@ -39,3 +39,4 @@ Supprimerait vendor/seld/
 Supprimerait vendor/squizlabs/
 Supprimerait vendor/symfony/
 Supprimerait vendor/twig/
+/config/db.php.dist
