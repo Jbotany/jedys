@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "GOT";
+    font-style: normal;
+    font-weight: normal;
+    src: url("/assets/fonts/Game of Thrones.ttf");
+}
+
+section {
+    padding-bottom: 3em;
+    padding-top: 3em;
+}
+
+.history {
+    text-align: center;
+    font-size: 2em;
+}
+
+.historyBack {
+    background-image: url("https://image.freepik.com/photos-gratuite/grunge-old-vintage-background-papier_1373-431.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 6em;
+    padding-bottom: 6em;
+}
