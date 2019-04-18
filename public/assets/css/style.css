@@ -10,7 +10,7 @@ section {
     padding-top: 3em;
 }
 
-h2 {
+.historyTitle {
     font-family: GOT;
     text-align: center;
     padding-bottom: 3vw;
