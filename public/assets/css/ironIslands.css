@@ -1,0 +1,44 @@
+img {
+  width: 100%;
+}
+
+.relative {
+  position: relative;
+}
+
+
+.egg {
+  position: absolute;
+  width: 3vw;
+}
+
+.egg11 {
+  right: 48.5vw;
+  bottom: 32vw;
+  opacity: 0.6;
+}
+
+.egg12 {
+  left: 8vw;
+  bottom: 24vw;
+
+}
+
+.egg13 {
+  left: 15vw;
+  top: 0px;
+  opacity: 0.8;
+}
+
+.egg14 {
+  right: 28vw;
+  top: 4.5vw;
+  opacity: 0.6;
+}
+
+.egg15 {
+  left: 42vw;
+  bottom: 20vw;
+  width: 1vw;
+  opacity: 0.2;
+}
