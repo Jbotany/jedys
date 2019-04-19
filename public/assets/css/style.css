@@ -2,15 +2,79 @@
     font-family: "GOT";
     font-style: normal;
     font-weight: normal;
-    src: url("/assets/fonts/Game of Thrones.ttf");
+    src: url("/assets/fonts/Game_of_Thrones.ttf");
 }
 
 section {
-    padding-bottom: 3em;
-    padding-top: 3em;
+    padding-bottom: 0em;
+    padding-top: 0em;
+}
+/* Start Footer */
+footer h2
+{
+    font-family: GOT;
+    font-size: 1.3em;
+}
+footer ul
+{
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    font-size: 0.8em;
 }
 
-h2 {
+footer p
+{
+    margin-bottom: 0;
+}
+
+footer
+{
+    background-color: #1a1a1a;
+    color: white;
+}
+
+footer hr
+{
+    background-color: white;
+    margin: 2em ;
+}
+
+footer a
+{
+    list-style-type: none;
+    color: white;
+}
+
+.smallPic
+{
+    width: 35px;
+}
+
+.smallPicLogoEoT
+{
+    width: 150px;
+}
+
+.littleEndPage
+{
+    font-size: 0.7em;
+}
+/* End Footer */
+
+@font-face {
+    font-family: "Mason";
+    src: url("/assets/fonts/Mason_Regular.ttf");
+}
+
+/***History***/
+
+section {
+    padding-bottom: 0em;
+    padding-top: 0em;
+}
+
+.historyTitle {
     font-family: GOT;
     text-align: center;
     padding-bottom: 3vw;
@@ -18,7 +82,8 @@ h2 {
 
 .history {
     text-align: center;
-    font-size: 2em;
+    font-size: 1.75em;
+    font-family: Mason;
 }
 
 .historyBack {
@@ -27,12 +92,14 @@ h2 {
     background-size: cover;
     padding-top: 6em;
     padding-bottom: 6em;
+}
 
 .jumbotron{
     background-image: url("https://i.goopics.net/JoOZy.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    margin-bottom: 0rem;
 }
 
 .title{
@@ -50,4 +117,109 @@ h2 {
     font-size: 1.5vw;
     color: #ffffff;
     font-family: "GOT";
+}
+
+/***End of History***/
+
+/***Card Characters***/
+
+.card-characters.card-deck {
+    background-color: rgba(199,199,199,.1);
+}
+
+.card-characters.card-deck .card {
+    background-color: transparent;
+}
+
+.card-characters .card .card-body h5 {
+    color: black;
+    font-family: GOT;
+    text-align: center;
+    font-size: 1.25vw;
+}
+
+.card-characters .card {
+    border: none;
+}
+
+.cont-img {
+    border-radius: 50%;
+    background-color: #4b3115;
+}
+
+.cont-img .card-img-top {
+    border-radius: 50%;
+    padding: 3%;
+    border: 5px solid #c8bea1;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.cont-img:hover {
+    transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+    transform-origin: center;
+    -moz-transform-origin: center;
+    -webkit-transform-origin: center;
+    transition: transform 1.0s ease ;
+    -moz-transition: -moz-transform 1.0s ease ;
+    -webkit-transition: -webkit-transform 1.0s ease;
+}
+
+/***End of Card Characters***/
+
+/***Button Up***/
+
+.buttonUp {
+    display: none;
+    padding: 20px;
+    background: #4b3115;
+    cursor: pointer;
+    position: fixed;
+    font-size: 30px;
+    bottom: 2%;
+    right: 1%;
+    color: #c8bea1;
+    border-radius: 50%;
+    z-index: 1000;
+    border: 5px solid #c8bea1;
+    box-shadow: 5px 5px 10px gray;
+}
+
+
+/***End of Button Up***/
+
+.sword {
+    max-height: 30px;
+}
+.nav-link:hover {
+    color: gray;
+}
+.nav-link {
+    font-family:"GOT" ;
+    font-size: 1.2em ;
+}
+.colorme {
+    color: darkgray;
+}
+
+.navbar-brand{
+    font-family: "GOT";
+    font-size: 2em;
+}
+
+.navbar-brand:hover {
+    color: darkgray;
+}
+.xs:hover {
+    transform : scale(1.2);
+    transition: 0.5s ease;
+}
+.imgfox {
+    max-height: 75px;
+}
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
 }

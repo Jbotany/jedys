@@ -1,6 +1,10 @@
 {% extends 'layout.html.twig' %}
-
-{% block histoire %}
-    {% include 'Home/history.html.twig' %}
-
+{% block navbar %}
+{% include 'Home/_navbar.html.twig' %}
 {% endblock %}
+{% block histoire %}
+{% include 'Home/history.html.twig' %}
+{% endblock %}
+
+
+{% block content %}{% endblock %}
