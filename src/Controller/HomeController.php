@@ -29,4 +29,10 @@ class HomeController extends AbstractController
 
         return $this->twig->render('Home/index.html.twig', ['egg' => $egg]);
     }
+
+    public function kingslanding()
+    {
+        return $this->twig->render('Home/kingslanding.html.twig');
+    }
 }
+

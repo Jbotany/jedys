@@ -10,6 +10,11 @@
     src: url("/assets/fonts/Mason Regular.ttf");
 }
 
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+
 /***History***/
 
 section {
@@ -131,6 +136,8 @@ section {
 
 /***End of Button Up***/
 
+/***Navbar***/
+
 .sword {
     max-height: 30px;
 }
@@ -160,3 +167,14 @@ section {
 .imgfox {
     max-height: 100px;
 }
+
+/***End of Navbar***/
+
+/***Kingslanding***/
+
+img.img-carte {
+    background: center no-repeat;
+    width: 100%;
+}
+
+/***End of Kingslanding***/

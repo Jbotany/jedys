@@ -16,11 +16,9 @@
     <title>{% block title %}{% endblock %}</title>
 </head>
 <header>
-    {%  block navbar %}
-    {% endblock %}
-    {% block jumbotron %}
-        {% include "Home/jumbotron.html.twig" %}
-    {% endblock %}
+    {%  block navbar %}{% endblock %}
+    {%  block jumbotron %}{% endblock %}
+
 
 
 </header>
@@ -28,6 +26,7 @@
 <body>
     <span class="buttonUp icon-arrow-up2"></span>
     <main class="container-fluid">
+        {%  block image %}{% endblock %}
         {% block histoire %}{% endblock %}
         {% block characters %}{% endblock %}
         {% block footer %} {% endblock %}
