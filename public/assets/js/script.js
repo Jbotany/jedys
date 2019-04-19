@@ -30,7 +30,6 @@ $(document).ready(function () {
             window.location.href = "/Page/success";
         }
     });
-    });
     $('.egg-014').click(function () {
         $(this).hide();
         counter--;
