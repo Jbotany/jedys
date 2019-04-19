@@ -8,7 +8,7 @@
 
 namespace App\Controller;
 
-class HomeController extends AbstractController
+class PageController extends AbstractController
 {
 
     /**
@@ -19,10 +19,7 @@ class HomeController extends AbstractController
      * @throws \Twig\Error\RuntimeError
      * @throws \Twig\Error\SyntaxError
      */
-    public function index()
-    {
-        return $this->twig->render('Home/index.html.twig');
-    }
+
 
     public function map()
     {
