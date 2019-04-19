@@ -5,6 +5,13 @@
     src: url("/assets/fonts/Game of Thrones.ttf");
 }
 
+@font-face {
+    font-family: "steam GOT";
+    font-style: normal;
+    font-weight: normal;
+    src: url("/assets/fonts/Steam GOTT.ttf");
+}
+
 section {
     padding-bottom: 3em;
     padding-top: 3em;
@@ -19,6 +26,7 @@ h2 {
 .history {
     text-align: center;
     font-size: 2em;
+    font-family: "steam GOT";
 }
 
 .historyBack {
@@ -27,8 +35,9 @@ h2 {
     background-size: cover;
     padding-top: 6em;
     padding-bottom: 6em;
+}
 
-.jumbotron{
+.jumbotronEggs{
     background-image: url("https://i.goopics.net/JoOZy.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -50,4 +59,79 @@ h2 {
     font-size: 1.5vw;
     color: #ffffff;
     font-family: "GOT";
+}
+
+.map{
+
+    background-repeat: no-repeat;
+    position : relative;
+    height: 250vh;
+    z-index: 2;
+}
+
+.city1{
+    position: absolute;
+    z-index: 1;
+    left: 40vw;
+    top: 45vw;
+    color: darkred;
+    text-shadow: 2px 2px #ffffff;
+    font-size: 2vw;
+    font-family: "GOT";
+}
+
+.city2{
+    position: absolute;
+    z-index: 1;
+    left: 30vw;
+    top: 22vw;
+    color: darkred;
+    text-shadow: 2px 2px #ffffff;
+    font-size: 2vw;
+    font-family: "GOT";
+}
+
+.city3{
+    position: absolute;
+    z-index: 1;
+    left: 30vw;
+    top: 53vw;
+    color: darkred;
+    text-shadow: 2px 2px #ffffff;
+    font-size: 2vw;
+    font-family: "GOT";
+}
+
+.city4{
+    position: absolute;
+    z-index: 1;
+    left: 26vw;
+    top: 17vw;
+    color: darkred;
+    text-shadow: 2px 2px #ffffff;
+    font-size: 2vw;
+    font-family: "GOT";
+}
+.city1:hover{
+    color:#ffffff;
+    text-decoration: none;
+    text-shadow: 2px 2px darkred;
+}
+
+.city2:hover{
+    color:#ffffff;
+    text-decoration: none;
+    text-shadow: 2px 2px darkred;
+}
+
+.city3:hover{
+    color:#ffffff;
+    text-decoration: none;
+    text-shadow: 2px 2px darkred;
+}
+
+.city4:hover{
+    color:#ffffff;
+    text-decoration: none;
+    text-shadow: 2px 2px darkred;
 }
