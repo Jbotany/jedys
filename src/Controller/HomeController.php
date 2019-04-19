@@ -8,8 +8,6 @@
 
 namespace App\Controller;
 
-
-
 use GuzzleHttp\Client;
 
 class HomeController extends AbstractController
@@ -20,8 +18,7 @@ class HomeController extends AbstractController
         // Create a client with a base URI
         $client = new Client([
                 'base_uri' => 'http://easteregg.wildcodeschool.fr/api/',
-            ]
-        );
+            ]);
 
 // Send a request to https://foo.com/api/test
         $response = $client->request('GET', 'eggs/random');
@@ -31,7 +28,5 @@ class HomeController extends AbstractController
 
 
         return $this->twig->render('Home/index.html.twig', ['egg' => $egg]);
-
     }
 }
-
