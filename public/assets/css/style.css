@@ -399,5 +399,12 @@ img.img-carte {
 .redirection{
     margin-top: -20%;
     margin-left: 40%;
+}
 
+.easterEgg {
+    position: absolute;
+    width: 1vw;
+    opacity: 0.2;
+    top: 5vw;
+    left: 3vw;
 }

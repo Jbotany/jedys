@@ -21,13 +21,12 @@ class HomeController extends AbstractController
             ]);
 
         // Send a request to https://foo.com/api/test
-        $response = $client->request('GET', 'eggs/random');
+        $response = $client->request('GET', 'eggs');
         $body = $response->getBody();
         $content = $body->getContents();
-        $egg = json_decode($content);
+        $eggs = json_decode($content, true);
 
-
-        return $this->twig->render('Home/index.html.twig', ['egg' => $egg]);
+        return $this->twig->render('Home/index.html.twig', ['eggs' => $eggs]);
     }
 
     public function map()
