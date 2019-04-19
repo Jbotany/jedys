@@ -29,4 +29,12 @@ class HomeController extends AbstractController
 
         return $this->twig->render('Home/index.html.twig', ['egg' => $egg]);
     }
+
+
+
+
+    public function map()
+    {
+        return $this->twig->render('Page/map.html.twig');
+    }
 }

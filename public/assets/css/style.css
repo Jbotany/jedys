@@ -5,6 +5,13 @@
     src: url("/assets/fonts/Game_of_Thrones.ttf");
 }
 
+@font-face {
+    font-family: "steam GOT";
+    font-style: normal;
+    font-weight: normal;
+    src: url("/assets/fonts/Steam GOTT.ttf");
+}
+
 section {
     padding-bottom: 0em;
     padding-top: 0em;
@@ -84,6 +91,8 @@ section {
     text-align: center;
     font-size: 1.75em;
     font-family: Mason;
+    font-size: 2em;
+    font-family: "steam GOT";
 }
 
 .historyBack {
@@ -92,9 +101,11 @@ section {
     background-size: cover;
     padding-top: 3em;
     padding-bottom: 3em;
+    padding-top: 6em;
+    padding-bottom: 6em;
 }
 
-.jumbotron{
+.jumbotronEggs{
     background-image: url("https://i.goopics.net/JoOZy.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -102,18 +113,18 @@ section {
     margin-bottom: 0rem;
 }
 
-.title{
+.titleJumbotron{
     text-align: center;
     margin-top: 10vw;
 }
 
-.title1{
+.titleJumbotron1{
     font-size: 5vw;
     color: #ffffff;
     font-family: "GOT";
 }
 
-.title2{
+.titleJumbotron2{
     font-size: 1.5vw;
     color: #ffffff;
     font-family: "GOT";
@@ -186,7 +197,6 @@ body {
     box-shadow: 5px 5px 10px gray;
 }
 
-
 /***End of Button Up***/
 
 .sword {
@@ -222,4 +232,78 @@ body {
 .container-fluid {
     padding-right: 0px;
     padding-left: 0px;
+}
+.map{
+
+    background-repeat: no-repeat;
+    position : relative;
+    height: 250vh;
+    z-index: 2;
+}
+
+.city1{
+    position: absolute;
+    z-index: 1;
+    left: 40vw;
+    top: 45vw;
+    color: darkred;
+    text-shadow: 2px 2px #ffffff;
+    font-size: 2vw;
+    font-family: "GOT";
+}
+
+.city2{
+    position: absolute;
+    z-index: 1;
+    left: 30vw;
+    top: 22vw;
+    color: darkred;
+    text-shadow: 2px 2px #ffffff;
+    font-size: 2vw;
+    font-family: "GOT";
+}
+
+.city3{
+    position: absolute;
+    z-index: 1;
+    left: 30vw;
+    top: 53vw;
+    color: darkred;
+    text-shadow: 2px 2px #ffffff;
+    font-size: 2vw;
+    font-family: "GOT";
+}
+
+.city4{
+    position: absolute;
+    z-index: 1;
+    left: 26vw;
+    top: 17vw;
+    color: darkred;
+    text-shadow: 2px 2px #ffffff;
+    font-size: 2vw;
+    font-family: "GOT";
+}
+.city1:hover{
+    color:#ffffff;
+    text-decoration: none;
+    text-shadow: 2px 2px darkred;
+}
+
+.city2:hover{
+    color:#ffffff;
+    text-decoration: none;
+    text-shadow: 2px 2px darkred;
+}
+
+.city3:hover{
+    color:#ffffff;
+    text-decoration: none;
+    text-shadow: 2px 2px darkred;
+}
+
+.city4:hover{
+    color:#ffffff;
+    text-decoration: none;
+    text-shadow: 2px 2px darkred;
 }
