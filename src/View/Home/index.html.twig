@@ -1,10 +1,15 @@
 {% extends 'layout.html.twig' %}
+
 {% block navbar %}
-{% include 'Home/_navbar.html.twig' %}
-{% endblock %}
-{% block histoire %}
-{% include 'Home/history.html.twig' %}
+    {% include 'Home/_navbar.html.twig' %}
 {% endblock %}
 
+{% block jumbotron %}
+    {% include "Home/jumbotron.html.twig" %}
+{% endblock %}
+
+{% block histoire %}
+    {% include 'Home/history.html.twig' %}
+{% endblock %}
 
 {% block content %}{% endblock %}
