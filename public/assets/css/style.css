@@ -391,3 +391,17 @@ img.img-carte {
 
 /***End of Kingslanding***/
 
+/***** page success *******/
+
+.canvas-wrap {
+    background: url(https://www.journaldugeek.com/content/uploads/2018/03/giphy-1-9.gif) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.redirection{
+    margin-top: -20%;
+    margin-left: 40%;
+
+}
