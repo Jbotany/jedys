@@ -46,6 +46,65 @@ $(document).ready(function () {
         counter--;
         $('.counter').text(counter);
     });
-
-
+    $('.egg01').click(function () {
+        $(this).hide();
+        counter--;
+        $('.counter').text(counter);
+    });$('.egg02').click(function () {
+        $(this).hide();
+        counter--;
+        $('.counter').text(counter);
+    });$('.egg03').click(function () {
+        $(this).hide();
+        counter--;
+        $('.counter').text(counter);
+    });$('.egg04').click(function () {
+        $(this).hide();
+        counter--;
+        $('.counter').text(counter);
+    });$('.egg05').click(function () {
+        $(this).hide();
+        counter--;
+        $('.counter').text(counter);
+    });$('.egg06').click(function () {
+        $(this).hide();
+        counter--;
+        $('.counter').text(counter);
+    });$('.egg07').click(function () {
+        $(this).hide();
+        counter--;
+        $('.counter').text(counter);
+    });$('.egg08').click(function () {
+        $(this).hide();
+        counter--;
+        $('.counter').text(counter);
+    });$('.egg09').click(function () {
+        $(this).hide();
+        counter--;
+        $('.counter').text(counter);
+    });$('.egg10').click(function () {
+        $(this).hide();
+        counter--;
+        $('.counter').text(counter);
+    });$('.egg11').click(function () {
+        $(this).hide();
+        counter--;
+        $('.counter').text(counter);
+    });$('.egg12').click(function () {
+        $(this).hide();
+        counter--;
+        $('.counter').text(counter);
+    });$('.egg13').click(function () {
+        $(this).hide();
+        counter--;
+        $('.counter').text(counter);
+    });$('.egg14').click(function () {
+        $(this).hide();
+        counter--;
+        $('.counter').text(counter);
+    });$('.egg15').click(function () {
+        $(this).hide();
+        counter--;
+        $('.counter').text(counter);
+    });
 });
