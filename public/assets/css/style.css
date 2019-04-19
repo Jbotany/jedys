@@ -12,6 +12,11 @@
     src: url("/assets/fonts/Steam_GOTT.ttf");
 }
 
+@font-face {
+    font-family: "Mason";
+    src: url("/assets/fonts/Mason_Regular.ttf");
+}
+
 section {
     padding-bottom: 0em;
     padding-top: 0em;
@@ -69,11 +74,6 @@ footer a
 }
 /* End Footer */
 
-@font-face {
-    font-family: "Mason";
-    src: url("/assets/fonts/Mason_Regular.ttf");
-}
-
 .container-fluid {
     padding-right: 0;
     padding-left: 0;
@@ -94,18 +94,14 @@ section {
 
 .history {
     text-align: center;
-    font-size: 1.75em;
-    font-family: Mason;
-    font-size: 2em;
-    font-family: "steam GOT";
+    font-family: "Mason";
+    font-size: 1.5em;
 }
 
 .historyBack {
     background-image: url("https://image.freepik.com/photos-gratuite/grunge-old-vintage-background-papier_1373-431.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 3em;
-    padding-bottom: 3em;
     padding-top: 6em;
     padding-bottom: 6em;
 }
@@ -391,3 +387,17 @@ img.img-carte {
 
 /***End of Kingslanding***/
 
+/***** page success *******/
+
+.canvas-wrap {
+    background: url(https://www.journaldugeek.com/content/uploads/2018/03/giphy-1-9.gif) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.redirection{
+    margin-top: -20%;
+    margin-left: 40%;
+
+}
