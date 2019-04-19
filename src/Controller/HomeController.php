@@ -35,9 +35,8 @@ class HomeController extends AbstractController
         return $this->twig->render('Page/map.html.twig');
     }
 
-        public function kingslanding()
+    public function kingslanding()
     {
         return $this->twig->render('Home/kingslanding.html.twig');
     }
 }
-
