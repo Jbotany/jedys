@@ -131,4 +131,32 @@ section {
 
 /***End of Button Up***/
 
+.sword {
+    max-height: 30px;
+}
+.nav-link:hover {
+    color: gray;
+}
+.nav-link {
+    font-family:"GOT" ;
+    font-size: 1.2em ;
+}
+.colorme {
+    color: darkgray;
+}
 
+.navbar-brand{
+    font-family: "GOT";
+    font-size: 2em;
+}
+
+.navbar-brand:hover {
+    color: darkgray;
+}
+.xs:hover {
+    transform : scale(1.2);
+    transition: 0.5s ease;
+}
+.imgfox {
+    max-height: 100px;
+}
