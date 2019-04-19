@@ -10,7 +10,7 @@ section {
     padding-top: 0em;
 }
 /* Start Footer */
-footer h2
+h2
 {
     font-family: GOT;
     font-size: 1.3em;
@@ -90,8 +90,8 @@ section {
     background-image: url("https://image.freepik.com/photos-gratuite/grunge-old-vintage-background-papier_1373-431.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 6em;
-    padding-bottom: 6em;
+    padding-top: 3em;
+    padding-bottom: 3em;
 }
 
 .jumbotron{
@@ -123,7 +123,7 @@ section {
 
 /***Card Characters***/
 
-.card-characters.card-deck {
+body {
     background-color: rgba(199,199,199,.1);
 }
 
