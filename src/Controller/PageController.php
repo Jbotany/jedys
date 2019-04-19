@@ -40,4 +40,9 @@ class PageController extends AbstractController
     {
         return $this->twig->render('Page/success.html.twig');
     }
+
+    public function err()
+    {
+        return $this->twig->render('Page/err404.html.twig');
+    }
 }
