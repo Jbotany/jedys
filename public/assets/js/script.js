@@ -1,10 +1,3 @@
-// $(document).ready(function(){
-//     $(".cont-img").click(function(){
-//         $(this).css('width', '105%');
-//         $(this).css('box-shadow', '10px 10px 20px black');
-//     });
-// });
-
 $(document).ready(function() {
 
     $('.buttonUp').click(function() {
@@ -21,4 +14,38 @@ $(document).ready(function() {
             $('.buttonUp').fadeOut('1000');
         }
     });
+});
+
+$(document).ready(function () {
+
+    let counter = 20;
+    $('.counter').text(counter);
+
+    $('.egg-007').click(function () {
+        $(this).hide();
+        counter--;
+        $('.counter').text(counter);
+    });
+    $('.egg-014').click(function () {
+        $(this).hide();
+        counter--;
+        $('.counter').text(counter);
+    });
+    $('.egg-015').click(function () {
+        $(this).hide();
+        counter--;
+        $('.counter').text(counter);
+    });
+    $('.egg-017').click(function () {
+        $(this).hide();
+        counter--;
+        $('.counter').text(counter);
+    });
+    $('.egg-018').click(function () {
+        $(this).hide();
+        counter--;
+        $('.counter').text(counter);
+    });
+
+
 });
