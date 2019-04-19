@@ -27,17 +27,16 @@ img {
 .egg08 {
   right: 1vw;
   top: 0px;
-  opacity: 0.3;
+  opacity: 0.5;
 }
 
 .egg09 {
   left: 48vw;
   top: 7vw;
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 .egg10 {
-  left: 15.5vw;
-  bottom: -6.5vw;
-  width: 1vw;
+  left: 0vw;
+  top: 10vw;
 }
