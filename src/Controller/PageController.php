@@ -40,5 +40,4 @@ class PageController extends AbstractController
     {
         return $this->twig->render('Page/success.html.twig');
     }
-
 }
