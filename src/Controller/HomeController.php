@@ -20,7 +20,7 @@ class HomeController extends AbstractController
                 'base_uri' => 'http://easteregg.wildcodeschool.fr/api/',
             ]);
 
-// Send a request to https://foo.com/api/test
+        // Send a request to https://foo.com/api/test
         $response = $client->request('GET', 'eggs/random');
         $body = $response->getBody();
         $content = $body->getContents();
@@ -30,11 +30,13 @@ class HomeController extends AbstractController
         return $this->twig->render('Home/index.html.twig', ['egg' => $egg]);
     }
 
-
-
-
     public function map()
     {
         return $this->twig->render('Page/map.html.twig');
+    }
+
+    public function kingslanding()
+    {
+        return $this->twig->render('Home/kingslanding.html.twig');
     }
 }

@@ -25,4 +25,16 @@ class PageController extends AbstractController
     {
         return $this->twig->render('Page/map.html.twig');
     }
+
+
+    public function highgarden()
+    {
+        return $this->twig->render('Page/highgarden.html.twig');
+    }
+
+
+    public function ironIslands()
+    {
+        return $this->twig->render('Page/ironIslands.html.twig');
+    }
 }
