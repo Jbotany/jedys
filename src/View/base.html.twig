@@ -5,24 +5,37 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>{% block title %}{% endblock %}</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/fonts.css">
     {% block stylesheet %}{% endblock %}
     <link rel="icon" href="/assets/images/favicon.png">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="http://www.gsgd.co.uk/sandbox/jquery/easing/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="/assets/js/script.js"></script>
+    <title>{% block title %}{% endblock %}</title>
 </head>
 <header>
-    {% block navbar %}{% endblock %}
-    {% block jumbotron %}{% endblock %}
-    {% block content %}{% endblock %}
+
+    {% block navbar %}
+    {% endblock %}
+    {% block jumbotron %}
+        {% include "Home/jumbotron.html.twig" %}
+    {% endblock %}
 
 </header>
 
 <body>
-{% block histoire %}{% endblock %}
-{% block personnages %}{% endblock %}
-{% block footer %} {% endblock %}
+
+<span class="buttonUp icon-arrow-up2"></span>
+<main class="container-fluid">
+    {% block histoire %}{% endblock %}
+    {% block characters %}{% endblock %}
+    {% block footer %} {% endblock %}
+    {% block javascript %}{% endblock %}
+</main>
+
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -32,6 +45,12 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-{% block javascript %}{% endblock %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
 </body>
 </html>

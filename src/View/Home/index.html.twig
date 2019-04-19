@@ -1,5 +1,10 @@
 {% extends 'layout.html.twig' %}
-
-{% block content %}
-    <h1>Hello Wilder !</h1>
+{% block navbar %}
+{% include 'Home/_navbar.html.twig' %}
 {% endblock %}
+{% block histoire %}
+{% include 'Home/history.html.twig' %}
+{% endblock %}
+
+
+{% block content %}{% endblock %}

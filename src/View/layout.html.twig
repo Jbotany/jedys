@@ -1,7 +1,17 @@
 {% extends 'base.html.twig' %}
+
 {% block navbar %}
 
+    {% include 'Home/_navbar.html.twig' %}
+
 {% endblock %}
+
+{% block content %}{% endblock %}
+
+{% block characters %}
+    {% include 'Item/_characters.html.twig' %}
+{% endblock %}
+
 {% block footer %}
     <footer>
         <div class="container-fluid">
@@ -17,7 +27,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 text-center">
                     <h2>Categories</h2>
                     <ul>
                         <li><a href="#" class="text-white">Histoire</a></li>
@@ -59,4 +69,5 @@
             </div>
         </div>
     </footer>
+
 {% endblock %}
