@@ -15,3 +15,37 @@ $(document).ready(function() {
         }
     });
 });
+
+$(document).ready(function () {
+
+    let counter = 20;
+    $('.counter').text(counter);
+
+    $('.egg-007').click(function () {
+        $(this).hide();
+        counter--;
+        $('.counter').text(counter);
+    });
+    $('.egg-014').click(function () {
+        $(this).hide();
+        counter--;
+        $('.counter').text(counter);
+    });
+    $('.egg-015').click(function () {
+        $(this).hide();
+        counter--;
+        $('.counter').text(counter);
+    });
+    $('.egg-017').click(function () {
+        $(this).hide();
+        counter--;
+        $('.counter').text(counter);
+    });
+    $('.egg-018').click(function () {
+        $(this).hide();
+        counter--;
+        $('.counter').text(counter);
+    });
+
+
+});
